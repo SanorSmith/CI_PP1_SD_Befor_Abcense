@@ -1,0 +1,13 @@
+/* Import Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rubik+Mono+One&family=Russo+One&display=swap");
+
+/* Asterisk wildcard selector to give the site default styles*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
