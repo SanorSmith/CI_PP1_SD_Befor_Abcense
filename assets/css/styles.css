@@ -11,3 +11,15 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* Generic projects style */
+    color: black;
+    font-family: "Oswald", sans-serif;
+}
+
