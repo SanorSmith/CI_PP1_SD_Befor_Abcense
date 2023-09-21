@@ -208,3 +208,9 @@ footer>ul {
     padding: 20px 0;
     background-color: rgb(238, 232, 232);
 }
+/* styling social networks icons */
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #2b2728;
+}
