@@ -31,5 +31,24 @@ body {
     height: 50px;
 }
 
+/* Add style to the logo text */
+.hero_titel {
+  position: relative;
+  top: -15px;
+  padding: 0px 5px;
+  color: #ea1538;
+  font-family: "Russo One", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 2px black;
+  width: auto;
+  line-height: 80px;
+  
+}
+label>span {
+    color: #0f0607;
+    text-shadow: 1px 2px 2px #ea1538;
+}
 
 
