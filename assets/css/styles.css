@@ -198,3 +198,13 @@ main {
 
 
 
+
+/* Footer */
+footer>ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(238, 232, 232);
+}
