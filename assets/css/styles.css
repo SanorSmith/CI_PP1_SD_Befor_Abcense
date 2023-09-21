@@ -168,6 +168,13 @@ main {
     margin: 0% 5% 5%;
     padding: 20% 0;
 }
+
+/* justify the Services paragraphs */
+#services,
+#ser_short ul li p {
+    text-align: justify;
+}
+
 /* Shape and Styling the images in section files */
 .ser_img {
     display: block;
