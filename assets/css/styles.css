@@ -75,4 +75,13 @@ nav .links_s li {
     background: rgba(255, 255, 255, 0.9);
 }
 
+nav .links_s li a {
+    color: #ea1538;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+
 
