@@ -95,4 +95,15 @@ nav .links_s li a {
     margin-right: 40px;
 }
 
+.links_s {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+
+
+
 
