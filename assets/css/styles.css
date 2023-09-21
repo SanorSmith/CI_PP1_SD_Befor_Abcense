@@ -23,6 +23,7 @@ body {
     font-family: "Oswald", sans-serif;
 }
 
+/* Mobile devices */
 
 /* Header */
 #logo {
@@ -107,8 +108,23 @@ nav .links_s li a {
 #check:checked ~ ul {
   left: 0;
 }
+
+/* Hide the checkbox */
+#check {
+    display: none;
+}
+/* Klick menue bars nav-toggle */
 #nav-toggle {
     display: none;
+}
+
+
+
+/* Main content style */
+
+main {
+    /* Expanding down main element to push footer down */
+    flex: 10 0 auto;
 }
 
 
