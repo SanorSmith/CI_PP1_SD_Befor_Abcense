@@ -171,3 +171,7 @@ main {
     box-shadow: 0px 1px 0px 0px;
 }
 
+#ser_types {
+    list-style: none;
+}
+
