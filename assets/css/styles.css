@@ -104,6 +104,8 @@ nav .links_s li a {
     transition: all .5s;
 }
 
-
+#check:checked ~ ul {
+  left: 0;
+}
 
 
