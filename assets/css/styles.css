@@ -199,15 +199,20 @@ main {
 
 /* About Section */
 
+#our_vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
-#our_vision>img {
+}
+#our_vision > img {
     width: 50%;
     border-radius: 50%;
     opacity: 0.8;
     padding: 5px;
     box-shadow: 1px 10px 10px 1px;
 }
+
 
 
 
