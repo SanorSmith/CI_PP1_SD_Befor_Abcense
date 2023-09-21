@@ -212,6 +212,12 @@ main {
     padding: 5px;
     box-shadow: 1px 10px 10px 1px;
 }
+#our_vision,
+#our_mission,
+#join_us {
+    background-color: #fdfdfd57;
+    padding: 15px;
+}
 
 
 
