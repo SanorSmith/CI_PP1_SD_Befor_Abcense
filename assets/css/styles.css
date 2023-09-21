@@ -148,7 +148,20 @@ main {
 }
 
 /* Services Section*/
+
+/* Add margin and padding for mobile devices */
 .section_padding {
     margin: 0% 5% 5%;
     padding: 20% 0;
+}
+/* Shape and Styling the images in section files */
+.ser_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border-radius: 50%;
+    border: solid;
+    box-shadow: -2px 0px 5px 2px;
+
 }
