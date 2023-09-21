@@ -23,6 +23,20 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: "Rubik+Mono+One", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+h2 {
+    color: #ea1538;
+    text-shadow: 1px 2px #000000;
+}
+
 /* Mobile devices */
 
 /* Header */
