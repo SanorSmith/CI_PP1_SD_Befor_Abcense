@@ -147,4 +147,8 @@ main {
   color: rgba(221, 216, 216, 0.7);
 }
 
-
+/* Services Section*/
+.section_padding {
+    margin: 0% 5% 5%;
+    padding: 20% 0;
+}
