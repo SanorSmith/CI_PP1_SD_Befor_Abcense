@@ -31,7 +31,7 @@ body {
     height: 50px;
 }
 
-/* Add style to the logo text */
+/* Add styles to the logo text */
 .hero_titel {
   position: relative;
   top: -15px;
@@ -49,6 +49,30 @@ body {
 label>span {
     color: #0f0607;
     text-shadow: 1px 2px 2px #ea1538;
+}
+/* Nav menue style */
+nav {
+    z-index: 1;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.9);
+    height: 50px;
+    width: 100%;
+    box-shadow: 1px 1px 2px 1px #0f0607;
+}
+
+nav .links_s {
+  float: right;
+  margin-right: 5px;
+}
+
+nav .links_s li {
+    display: block;
+    line-height: 50px;
+    margin: 0px 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.9);
 }
 
 
