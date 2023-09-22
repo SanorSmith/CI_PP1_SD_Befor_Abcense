@@ -279,6 +279,23 @@ main {
     padding: 5% 0%;
 }
 
+#Info_labels_boxs>div {
+    padding-bottom: 4%;
+
+}
+
+#Info_labels_boxs label,
+input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    height: 30px;
+    border-color: #bebebe;
+}
+
 
 /* Footer */
 footer>ul {
