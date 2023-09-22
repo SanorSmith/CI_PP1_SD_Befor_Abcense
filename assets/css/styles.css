@@ -421,7 +421,9 @@ footer>ul {
 
     /* Services section */
 
-
+.section_padding {
+    padding: 10% 5% 5%;
+}
     
 
 
