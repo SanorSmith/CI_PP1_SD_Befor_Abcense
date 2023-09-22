@@ -398,16 +398,30 @@ footer>ul {
         display: none;
     }   
 
-    /* Adjust hero image to tablet screen size*/
-    #hero {
-        height: 1180px;
-        
-    }
     
     /* Adjust hero text to tablet screen size*/
     .hero_titel {
         font-size: 20px;        
     }
+
+
+    /* Main */
+
+    /* Adjust hero image and text to tablet screen size*/
+    #hero {
+        height: 1180px;
+        
+    }
+
+    #cover-text {
+        font-size: 120%;
+        width: 40%;
+        padding: 5%;
+    }
+
+
+    
+    
 
 
 
