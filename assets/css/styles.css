@@ -267,6 +267,19 @@ main {
 }
 
 
+/* styling Email and telefon tags */
+
+#email_tel div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#email_tel i {
+    padding: 5% 0%;
+}
+
+
 /* Footer */
 footer>ul {
     display: flex;
