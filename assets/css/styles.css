@@ -463,5 +463,28 @@ footer>ul {
         padding: 5px;
         color: aliceblue;
     }
+
+    /* Re-adjust About us section to fit on tablet screen size*/
+
+    #our_vision>img {
+        margin: 0 1%;
+        float: left;
+        width: 30%;
+        padding: 0 5%;
+        background-color: rgb(255, 255, 255);
+        border: solid;
+        border-color: #bebebe;
+    }
+
+    #our_vision> p {  
+        width: 100%;           
+        
+    }
+    #our_vision> h4 {  
+        position: static;
+        left: 400px;  
+        color: #ffffff;       
+    }
+
     
 }
