@@ -375,9 +375,16 @@ footer>ul {
 
     /* Adjust and Show menue's elements  horizontally*/
     nav .links_s li {
-            display: inline-block;
-            background: none;
-            border: none;
-    }        
+        display: inline-block;
+        background: none;
+        border: none;
+    }       
+    
+    nav .links_s li a {
+        background: #bebebe;
+        box-shadow: 1px 1px 1px 1px #0f0607;
+    }
+
+    
 
 }
