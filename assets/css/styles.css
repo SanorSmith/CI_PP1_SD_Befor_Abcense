@@ -392,8 +392,13 @@ footer>ul {
     }
     
     /* Hide Menue bars icon */
-    #m_icon {
+    .check_btn {
         display: none;
-    }        
-
+    }   
+    
+    /* Adjust hero text to tablet screen size*/
+    .hero_titel {
+        font-size: 20px;
+        
+    }
 }
