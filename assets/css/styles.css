@@ -384,16 +384,16 @@ footer>ul {
         background: #bebebe;
         box-shadow: 1px 1px 1px 1px #0f0607;
     }
-    .links_s {
-    
-    width: initial;
-    text-align: right;    
-    height: initial; 
-    position: initial;      
+    .links_s {    
+        width: initial;
+        text-align: right;    
+        height: initial; 
+        position: initial;      
     }
-
     
-
-    
+    /* Hide Menue bars icon */
+    #m_icon {
+        display: none;
+    }        
 
 }
