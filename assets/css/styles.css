@@ -243,7 +243,7 @@ main {
 
 /* contact us */
 
-#header_text>p {
+#header_text > p {
     text-align: justify;
 }
 
