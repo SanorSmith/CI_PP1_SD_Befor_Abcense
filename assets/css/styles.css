@@ -380,7 +380,7 @@ footer>ul {
         border: none;
     }       
     
-    nav .links_s li a {
+    nav .links_s li a {        
         background: #bebebe;
         box-shadow: 1px 1px 1px 1px #0f0607;
     }
@@ -388,17 +388,28 @@ footer>ul {
         width: initial;
         text-align: right;    
         height: initial; 
-        position: initial;      
+        position: initial; 
+        
+            
     }
     
     /* Hide Menue bars icon */
     .check_btn {
         display: none;
     }   
+
+    /* Adjust hero image to tablet screen size*/
+    #hero {
+        height: 1180px;
+        
+    }
     
     /* Adjust hero text to tablet screen size*/
     .hero_titel {
-        font-size: 20px;
-        
+        font-size: 20px;        
     }
+
+
+
+    
 }
