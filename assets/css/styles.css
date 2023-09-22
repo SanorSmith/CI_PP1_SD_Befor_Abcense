@@ -256,6 +256,17 @@ main {
     border-color: #bebebe;
 }
 
+/* contact us viewing order */
+
+#email_tel {
+    order: 3;
+}
+
+#adress {
+    order: 2;
+}
+
+
 /* Footer */
 footer>ul {
     display: flex;
