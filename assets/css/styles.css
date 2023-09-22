@@ -498,7 +498,12 @@ footer>ul {
 
     /* Re-adjust Contact Us section to fit on tablet screen size*/
 
-    
+    #email_tel > div {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        padding: 1% 0;
+    }
 
     
 }
