@@ -486,5 +486,19 @@ footer>ul {
         color: #ffffff;       
     }
 
+    #mission_join {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        }
+
+    #mission_join div {
+        padding: 2%;
+    }
+
+    /* Re-adjust Contact Us section to fit on tablet screen size*/
+
+    
+
     
 }
