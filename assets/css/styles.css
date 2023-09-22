@@ -404,6 +404,13 @@ footer>ul {
         display: none;
     }   
 
+    /* Respond upon hover */
+    .links_s li :hover{
+            background: black;
+            color: rgb(255, 255, 255);    
+    }
+
+
     
     /* Adjust hero text to tablet screen size*/
     .hero_titel {
@@ -529,7 +536,7 @@ footer>ul {
         order:3;
     }
 
-    /* User contact input */
+    /* Re-form User contact input for tablets */
     #Info_label_boxs > div{
         padding-bottom: 4%;  
     }
@@ -545,10 +552,16 @@ footer>ul {
         border-color: #bebebe;
     }
 
-        #map {
-            height: 430px;
-        }
-        
+    #map {
+        height: 430px;
+    }    
+     
+}
+
+/* Adjuste header elements to desktop/laptop devices screen*/
+@media screen and (min-width: 992px) {
+
+    
 
     
 }
