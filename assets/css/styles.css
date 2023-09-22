@@ -192,7 +192,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 150px;
+    width: 30%;
     border-radius: 50%;
     border: solid;
     box-shadow: -2px 0px 5px 2px;
@@ -380,6 +380,30 @@ footer>ul {
 }
 
 
+/* Adjuste header elements to mobil/tablet devices screen*/
+@media screen and (min-width: 400px) {
+
+    #cover-text {
+        font-size: 80%;         
+    }
+
+
+}
+
+
+/* Adjuste header elements to mobile/tablet devices screen*/
+@media screen and (min-width: 550px) {
+
+    #cover-text {
+        font-size: 90%;         
+    }
+
+
+}
+
+
+
+
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
@@ -425,9 +449,7 @@ footer>ul {
     }
 
     #cover-text {
-        font-size: 120%;
-        width: 40%;
-        padding: 5%;
+        font-size: 120%;    
     }
 
     /* Services section */
@@ -559,7 +581,32 @@ footer>ul {
 /* Adjuste header elements to desktop/laptop devices screen*/
 @media screen and (min-width: 992px) {
 
-    
+    #cover-text {
+        font-size: 140%;    
+   }
 
+   /* Services section */
+      .ser_style  h4,p {
+        font-size: 150%;
+        
+    }
+       
+      
     
+}
+
+
+
+
+
+
+/* Adjuste header elements to desktop/laptop devices screen*/
+@media screen and (min-width: 1200px) {
+
+    #cover-text {
+        font-size: 160%;        
+        padding: 5%;
+    }
+
+
 }
