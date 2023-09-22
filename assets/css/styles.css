@@ -136,6 +136,12 @@ nav .links_s li a {
     display: none;
 }
 
+/* Respond upon hover */
+.links_s li :hover {
+    background: black;
+    color: rgb(255, 255, 255);
+}
+
 /* Main content style */
 
 main {
@@ -403,15 +409,7 @@ footer>ul {
     .check_btn {
         display: none;
     }   
-
-    /* Respond upon hover */
-    .links_s li :hover{
-            background: black;
-            color: rgb(255, 255, 255);    
-    }
-
-
-    
+        
     /* Adjust hero text to tablet screen size*/
     .hero_titel {
         font-size: 20px;        
