@@ -450,19 +450,9 @@ footer>ul {
         padding: 10% 5% 5%;        
     }
 
-
-
-
-    
-
-
-
-
-
-    
-    
-
-
-
+    .project_style>li {
+        align-items: center;
+        width: 50%;
+    }
     
 }
