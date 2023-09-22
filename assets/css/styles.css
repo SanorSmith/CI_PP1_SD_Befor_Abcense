@@ -4,8 +4,8 @@
 /* Asterisk wildcard selector to give the site default styles*/
 
 * {
-    padding: 0;
-    margin: 0;
+    margin:0%;
+    padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -172,7 +172,7 @@ main {
 /* Add margin and padding for mobile devices */
 .section_padding {
     margin: 0% 5% 5%;
-    padding: 20% 0;
+    padding: 20% 0%;
 }
 
 /* justify the Services paragraphs */
@@ -316,7 +316,7 @@ main {
 
 /* styling User input form*/
 
-#Info_labels_boxs>div {
+#Info_labels_boxs > div {
     padding-bottom: 4%;
 
 }
@@ -345,9 +345,15 @@ input {
 }
 
 #map {
-    padding: 1% 0% 0%;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;    
+    width: auto;
     height: 350px;
+    margin: 5%;
+}
+#map > iframe {
+    width: 100%;
 }
 
 /* Footer */
@@ -504,6 +510,45 @@ footer>ul {
         height: 30px;
         padding: 1% 0;
     }
+    /* contact us viewing order */
+    #our_info_container {
+        display: flex;
+        flex-direction: row;    
+        justify-content: space-between;        
+    }
+        
+    #email_tel {
+        order: 2;
+    }
+    
+    #adress {
+        order:1;
+    }
+
+    #open_hour {
+        order:3;
+    }
+
+    /* User contact input */
+    #Info_label_boxs > div{
+        padding-bottom: 4%;  
+    }
+
+    
+    #Info_label_boxs label, input{
+        display: flex;
+        flex-direction: column;    
+        width: 50%;
+    }
+    input {
+        height: 30px;
+        border-color: #bebebe;
+    }
+
+        #map {
+            height: 430px;
+        }
+        
 
     
 }
