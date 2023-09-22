@@ -200,6 +200,14 @@ main {
     list-style: none;
 }
 
+/* Gallary */
+#gallary {
+    padding: 20% 0%;
+}
+
+#gallary>h2 {
+    color: #ea1538;
+}
 
 /* About Section */
 
