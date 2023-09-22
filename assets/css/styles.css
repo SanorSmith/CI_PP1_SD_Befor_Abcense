@@ -279,6 +279,8 @@ main {
     padding: 5% 0%;
 }
 
+/* styling User input form*/
+
 #Info_labels_boxs>div {
     padding-bottom: 4%;
 
@@ -295,6 +297,18 @@ input {
     height: 30px;
     border-color: #bebebe;
 }
+
+#button_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#button_center>input {
+    width: 20%;
+    margin: 3% 0 0%;
+}
+
 
 
 /* Footer */
