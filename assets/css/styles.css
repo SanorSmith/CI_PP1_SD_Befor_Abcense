@@ -209,6 +209,16 @@ main {
     color: #ea1538;
 }
 
+/* Project images style */
+
+.pro_img {
+    width: 75%;
+    border-radius: 5px;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
 /* About Section */
 
 #our_vision {
