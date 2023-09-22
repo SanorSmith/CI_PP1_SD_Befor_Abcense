@@ -421,6 +421,8 @@ footer>ul {
 
     /* Services section */
 
+    /* Re-adjust services section to fit on tablet screen size*/
+
     .section_padding {
         padding: 10% 5% 5%;
     }
@@ -429,6 +431,19 @@ footer>ul {
         display: flex;
         justify-content: space-around;
     }
+
+     ser_types h4 {
+        text-align: left;
+        padding-bottom: 10%;
+    }
+
+    .ser_style {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+  }
+
+
     
 
 
