@@ -219,6 +219,19 @@ main {
     border-color: rgba(255, 255, 255, 0.7);
 }
 
+.project_style>li figure {
+    background-color: rgba(119, 115, 115, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    border: solid #bebebe;
+    box-shadow: 1px 10px 10px 2px #bebebe;
+
+
+
+
 /* About Section */
 
 #our_vision {
