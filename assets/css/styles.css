@@ -22,6 +22,9 @@ body {
     color: black;
     font-family: "Oswald", sans-serif;
 }
+.curved_corner {
+    border-radius: 5px;
+}
 
 h1,
 h2,
@@ -362,4 +365,19 @@ footer>ul {
     font-size: 160%;
     padding: 5%;
     color: #2b2728;
+}
+
+
+/* Media query: tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+
+/* Header*/
+
+    /* Adjust and Show menue's elements  horizontally*/
+    nav .links_s li {
+            display: inline-block;
+            background: none;
+            border: none;
+    }        
+
 }
