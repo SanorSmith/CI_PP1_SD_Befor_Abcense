@@ -732,7 +732,7 @@ footer>ul {
    }
 
    /* Services section */
-      .ser_style, h4 p {
+    h4, p{
         font-size: 150%;
         
     }
@@ -771,8 +771,8 @@ footer>ul {
    }
 
    /* Services section */
-      .ser_style, h4 p {
-        font-size: 150%;
+    h4, p {
+        font-size: 170%;
         
     }
        
