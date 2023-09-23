@@ -268,7 +268,7 @@
 
     <!-- Contact us section -->
     <section id="contact" class="section_padding">
-    
+        
         <!-- Header text -->
         <div id="header_text">
             <h2>Contact us!</h2>
@@ -281,75 +281,76 @@
             </p>
             <br>
         </div>
-
+        
         <!-- Our information section -->
         <div id="our_info_container" class="curved_corner">
-            <div id="adress">
-                <h4>Adress</h4>
-                <p>Savin Design</p>
-                <p>Götgatn 5</p>
-                <p>11321 Stockholm</p>
-                <br>
-            </div>
-        
-            <div id="email_tel">
-                <br>
+                <div id="adress">
+                    <h4>Adress</h4>
+                    <p>Savin Design</p>
+                    <p>Götgatn 5</p>
+                    <p>11321 Stockholm</p>
+                    <br>
+                </div>
+            
+                <div id="email_tel">
+                    <br>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p style="font-size: 100%">info@savindesign.com</p>
+                    </div>
+            
+                    <div>
+                        <i class="fa-solid fa-square-phone-flip"></i>
+                        <p style="font-size: 100%">08-000000</p>
+                    </div>
+                    <br>
+                </div>
+            
+                <div id="open_hour">
+                    <h4>Open Hour</h4>
+                    <p>Mon-Fri 09:00-21:00</p>
+                    <p>Weekend: Closed</p>
+                    <br>
+                </div>
+        </div>        
+        <div id="contact_container">
+            <!-- Input boxes form for the user -->
+            <form method="POST" action="https://formdump.codeinstitute.net" >
+            
                 <div>
-                    <i class="fa-solid fa-envelope"></i>
-                    <p style="font-size: 100%">info@savindesign.com</p>
+                    <div id="info_labels_boxs">
+            
+                        <div id="client_name">
+                            <label for="c_name">*Name</label>
+                            <input class="curved_corner" type="text" name="full_name" id="c_name" required>
+                        </div>
+                        <div id="client_email">
+                            <label for="c_email">*E-mail</label>
+                            <input class="curved_corner" type="email" name="email" id="c_email" required>
+                        </div>
+                        <div id="client_tel">
+                            <label for="c_tel">Telephon</label>
+                            <input class="curved_corner" type="text" name="tel" id="c_tel">
+                        </div>
+                        <div id="client_county">
+                            <label for="c_county">*City/County</label>
+                            <input class="curved_corner" type="text" name="country" id="c_county" required>
+                        </div>
+                    </div>
+                    <textarea class="curved_corner" name="Client_message" id="client_message" cols="35" rows="10"
+                        >Please explain here!</textarea>
+                    <div id="button_center"><input type="submit" value="Send"></div>
                 </div>
-        
-                <div>
-                    <i class="fa-solid fa-square-phone-flip"></i>
-                    <p style="font-size: 100%">08-000000</p>
-                </div>
-                <br>
+            </form>
+            
+            <div id="map">
+                <label for="G_map">How to find us</label>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.8282644047326!2d18.06837297628978!3d59.31912461183847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77e4b165f98b%3A0x3bb36e5b8b169578!2sG%C3%B6tgatan%205%2C%20116%2046%20Stockholm!5e0!3m2!1sen!2sse!4v1694766652317!5m2!1sen!2sse"
+                    style="border: solid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" name=G_map></iframe></iframe>
+            
             </div>
-        
-            <div id="open_hour">
-                <h4>Open Hour</h4>
-                <p>Mon-Fri 09:00-21:00</p>
-                <p>Weekend: Closed</p>
-                <br>
-            </div>
-        </div>
-
-        <!-- Input boxes form for the user -->
-        <form method="POST" action="https://formdump.codeinstitute.net">
-        
-            <div>
-                <div id="info_labels_boxs">
-        
-                    <div id="client_name">
-                        <label for="c_name">*Name</label>
-                        <input class="curved_corner" type="text" name="full_name" id="c_name" required>
-                    </div>
-                    <div id="client_email">
-                        <label for="c_email">*E-mail</label>
-                        <input class="curved_corner" type="email" name="email" id="c_email" required>
-                    </div>
-                    <div id="client_tel">
-                        <label for="c_tel">Telephon</label>
-                        <input class="curved_corner" type="text" name="tel" id="c_tel">
-                    </div>
-                    <div id="client_county">
-                        <label for="c_county">*City/County</label>
-                        <input class="curved_corner" type="text" name="country" id="c_county" required>
-                    </div>
-                </div>
-                <textarea class="curved_corner" name="Client_message" id="client_message" cols="35" rows="10"
-                    style="width: 100%">Please explain here!</textarea>
-                <div id="button_center"><input type="submit" value="Send"></div>
-            </div>
-        </form>
-        
-        <div id="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.8282644047326!2d18.06837297628978!3d59.31912461183847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77e4b165f98b%3A0x3bb36e5b8b169578!2sG%C3%B6tgatan%205%2C%20116%2046%20Stockholm!5e0!3m2!1sen!2sse!4v1694766652317!5m2!1sen!2sse"
-                style="border: solid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
-        </div>
-        
+        </div>    
     </section>
 
     
