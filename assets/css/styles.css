@@ -302,7 +302,7 @@ main {
 
 /* About Section */
 
-#about_type_1, #about_type_2 {
+.about_type_1, .about_type_2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -334,7 +334,7 @@ main {
 }
 
 
-#about_type_2>div,
+.about_type_2 > div,
 #our_mission,
 #join_us {
     background-color: #fdfdfd57;
@@ -343,7 +343,7 @@ main {
 
 
 
-#about_type_2 > div, #about_type_1  {
+.about_type_2 > div, .about_type_1  {
     padding: 5px;
     margin: 10px 2px;
     background-color: #fdfdfd57;
@@ -420,6 +420,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 #button_center>input {
@@ -596,7 +597,7 @@ footer>ul {
 
     
     /*View About sections horizontally*/
-    #about_type_1{
+    .about_type_1{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -621,13 +622,13 @@ footer>ul {
         padding: 10%;           
         
     }
-    #abour_type_1 > h4 {  
+    .about_type_1 > h4 {  
         position: static;
         left: 400px;  
         color: #ffffff;       
     }
 
-    #about_type_2 {
+    .about_type_2 {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
