@@ -244,14 +244,14 @@ main {
 
 /* About Section */
 
-#our_vision {
+#ser_type_1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-#our_vision>img {
+#ser_type_1 > img {
     width: 100%;
     border: solid;
     border-color: #bebebe;
@@ -261,14 +261,14 @@ main {
     box-shadow: 1px 10px 10px 0px;
 }
 
-#our_vision,
+#ser_type_1,
 #our_mission,
 #join_us {
     background-color: #fdfdfd57;
     padding: 15px;
 }
 
-#mission_join div {
+#ser_type_2 div {
     margin: 10px 4px;
 }
 
@@ -472,6 +472,7 @@ footer>ul {
 
     #ser_types {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
 
@@ -483,7 +484,7 @@ footer>ul {
     .ser_style {
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 45%;
     }
 
     
@@ -509,7 +510,7 @@ footer>ul {
 
     /* Re-adjust About us section to fit on tablet screen size*/
 
-    #our_vision>img {
+    #ser_type_1 > img {
         margin: 0 1%;
         float: left;
         width: 30%;
@@ -519,23 +520,23 @@ footer>ul {
         border-color: #bebebe;
     }
 
-    #our_vision> p {  
+    #ser_type_1 > p {  
         width: 100%;           
         
     }
-    #our_vision> h4 {  
+    #ser_type_1 > h4 {  
         position: static;
         left: 400px;  
         color: #ffffff;       
     }
 
-    #mission_join {
+    #ser_type_2 {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         }
 
-    #mission_join div {
+    #ser_type_2 div {
         padding: 2%;
     }
 
