@@ -178,7 +178,7 @@ main {
 /* Add margin and padding for mobile devices */
 .section_padding {
     margin: 0% 5% 5%;
-    padding: 20% 0%;
+    padding: 20% 0 0 0;
 }
 
 /* justify the Services paragraphs */
@@ -361,6 +361,7 @@ main {
 
 /* contact us */
 
+
 #header_text > p {
     text-align: justify;
 }
@@ -416,6 +417,11 @@ input {
     border-color: #bebebe;
 }
 
+
+#client_message {
+    width: 100%;
+}
+
 #button_center {
     display: flex;
     flex-direction: row;
@@ -436,7 +442,7 @@ input {
     
     justify-items: center;    
     width: auto;
-    height: 350px;
+    height: 100%;
     
 }
 #map > iframe {
