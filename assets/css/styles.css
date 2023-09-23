@@ -244,32 +244,51 @@ main {
 
 /* About Section */
 
-#ser_type_1 {
+#about_type_1, #about_type_2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-#ser_type_1 > img {
+#bk_img_1, #bk_img_2, #bk_img_3 {
     width: 100%;
-    border: solid;
-    border-color: #bebebe;
-    border-radius: 5px;    
-    opacity: 0.8;
-    padding: 5px;
-    box-shadow: 1px 10px 10px 0px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0px;
+    margin: 10px;
+
 }
 
-#ser_type_1,
+#bk_img_1{    
+    height: 150Px;
+    background: url("../images/pexels-about_our_mission.jpg") no-repeat center center/cover;       
+}
+
+#bk_img_2 {    
+    height: 150Px;
+    background: url("../images/pexels-about_our_approach.jpg") no-repeat center center/cover;
+    
+}
+
+#bk_img_3 {   
+    height: 150Px;
+    background: url("../images/pexels-about_sustainability.jpg") no-repeat center center/cover;    
+}
+
+
+#about_type_2>div,
 #our_mission,
 #join_us {
     background-color: #fdfdfd57;
     padding: 15px;
 }
 
-#ser_type_2 div {
-    margin: 10px 4px;
+
+
+#about_type_2 > div, #about_type_1  {
+    padding: 5px;
+    margin: 10px 2px;
+    background-color: #fdfdfd57;
 }
 
 .about_container,
@@ -510,35 +529,46 @@ footer>ul {
 
     /* Re-adjust About us section to fit on tablet screen size*/
 
-    #ser_type_1 > img {
-        margin: 0 1%;
-        float: left;
-        width: 30%;
-        padding: 0 5%;
-        background-color: rgb(255, 255, 255);
-        border: solid;
-        border-color: #bebebe;
+    
+    /*View About sections horizontally*/
+    #about_type_1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
-    #ser_type_1 > p {  
-        width: 100%;           
+    #bk_img_1, #bk_img_2, #bk_img_3 {
+        width: 250%;
+        height: 200Px;  
+        margin: ;     
+    }    
+   
+    /*View Sustainability pargraph div horizontally*/
+    #sustainability {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }  
+    
+
+    #about_type_1 > p {  
+        width: 100%;
+        padding: 10%;           
         
     }
-    #ser_type_1 > h4 {  
+    #abour_type_1 > h4 {  
         position: static;
         left: 400px;  
         color: #ffffff;       
     }
 
-    #ser_type_2 {
+    #about_type_2 {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         }
 
-    #ser_type_2 div {
-        padding: 2%;
-    }
+    
 
     /* Re-adjust Contact Us section to fit on tablet screen size*/
 
