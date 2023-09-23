@@ -74,7 +74,7 @@ nav {
     z-index: 1;
     position: fixed;
     background: rgba(255, 255, 255, 0.9);
-    height: 50px;
+    height: 40px;
     width: 100%;
     box-shadow: 1px 1px 2px 1px #0f0607;
 }
@@ -503,6 +503,7 @@ footer>ul {
         display: inline-block;
         background: none;
         border: none;
+        height: 40px;
     }       
     
     nav .links_s li a {        
@@ -527,7 +528,7 @@ footer>ul {
         
     /* Adjust hero text to tablet screen size*/
     .hero_titel {
-        font-size: 20px;        
+        font-size: 25px;        
     }
 
 
@@ -723,6 +724,15 @@ footer>ul {
 /* Adjuste header elements to desktop/laptop devices screen*/
 @media screen and (min-width: 992px) {
 
+    #logo {        
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero_titel {
+            font-size: 25px;
+        }
+
     #cover-text {
         font-size: 140%;    
    }
@@ -767,8 +777,9 @@ footer>ul {
    }
 
    nav .links_s li a {
-       font-size: 130%;
+       font-size: 180%;
    }
+   
 
    /* Services section */
     h4, p {
