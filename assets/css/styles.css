@@ -247,10 +247,19 @@ main {
 
 /* Project images style */
 
+.project_style>li {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
 .pro_img_style {
     height: 300px;
-    width: 150%;
-    border-radius: 5px;
+    width: 100%;  
+    margin: 0 10px;  
     
 }
 
@@ -286,14 +295,7 @@ main {
     background: url("../images/pro_ 8.jpg") no-repeat center center/cover;
 }
 
-.project_style > li {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;    
-    
-}
+
 
 
 
@@ -308,7 +310,7 @@ main {
 }
 
 #bk_img_1, #bk_img_2, #bk_img_3 {
-    width: 100%;
+    width: 95%;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 0px;
     margin: 10px;
@@ -582,6 +584,13 @@ footer>ul {
         padding: 5px;
         color: aliceblue;
     }
+    
+    .pro_img_style {
+        height: 400px;
+        width: 100%;
+        
+    
+    }
 
     /* Re-adjust About us section to fit on tablet screen size*/
 
@@ -687,15 +696,21 @@ footer>ul {
    }
 
    /* Services section */
-      .ser_style  h4,p {
+      .ser_style, h4 p {
         font-size: 150%;
         
     }
        
     /*Gallary*/
-    .project_style>li {
+    .project_style>li {        
+        width: 50%;
+    }
+
+    .pro_img_style {
+        height: 400px;
+        width: 100%;
         
-        width: 25%;
+    
     }
 
     
@@ -712,12 +727,22 @@ footer>ul {
 @media screen and (min-width: 1200px) {
 
     #cover-text {
-        font-size: 160%;        
-        padding: 5%;
-    }
+        font-size: 140%;    
+   }
 
-    nav .links_s li a {        
+   nav .links_s li a {
+       font-size: 130%;
+   }
+
+   /* Services section */
+      .ser_style, h4 p {
         font-size: 150%;
+        
+    }
+       
+    /*Gallary*/
+    .project_style>li {        
+        width: 50%;
     }
 
 
