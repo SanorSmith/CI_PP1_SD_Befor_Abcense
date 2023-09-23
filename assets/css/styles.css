@@ -194,24 +194,40 @@ main {
 }
 
 
-#ser_img_1,
-#ser_img_2,
-#ser_img_3 {
+.ser_img_style {
     width: 100%;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 0px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 
 }
 
 #ser_img_1 {
     height: 300px;
     background: url("../images/pexels-ser_1.jpg") no-repeat center center/cover;
-}#ser_img_2 {
+}
+
+#ser_img_2 {
     height: 300Px;
     background: url("../images/pexels-ser_2.jpg") no-repeat center center/cover;
-}#ser_img_3 {
+}
+
+#ser_img_3 {
+    height: 300Px;
+    background: url("../images/pexels-ser_3.jpg") no-repeat center center/cover;
+}
+
+#ser_img_4 {
+    height: 300px;
+    background: url("../images/pexels-ser_4.jpg") no-repeat center center/cover;
+}
+
+#ser_img_5 {
+    height: 300Px;
+    background: url("../images/pexels-ser_2.jpg") no-repeat center center/cover;
+}
+
+#ser_img_6 {
     height: 300Px;
     background: url("../images/pexels-ser_3.jpg") no-repeat center center/cover;
 }
