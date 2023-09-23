@@ -248,12 +248,10 @@ main {
 /* Project images style */
 
 .pro_img_style {
-    height: 200px;
-    width: 95%;
+    height: 300px;
+    width: 150%;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px 0px;
-    margin: 10px;
-
+    
 }
 
 #pro_img_1 {    
@@ -288,23 +286,13 @@ main {
     background: url("../images/pro_ 8.jpg") no-repeat center center/cover;
 }
 
-.pro_img {
-    width: 75%;
-    border-radius: 5px;
-    border-style: double;
-    border-width: 5px;
-    border-color: rgba(255, 255, 255, 0.7);
-}
-
-.project_style > li figure {
-    background-color: rgba(119, 115, 115, 0.7);
+.project_style > li {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    border-radius: 20px;
-    border: solid #bebebe;
-    box-shadow: 1px 10px 10px 2px #bebebe;
+    width: 100%;    
+    
 }
 
 
@@ -587,7 +575,7 @@ footer>ul {
     }
 
     .project_style {
-        width: 100%;
+        
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -704,6 +692,13 @@ footer>ul {
         
     }
        
+    /*Gallary*/
+    .project_style>li {
+        
+        width: 25%;
+    }
+
+    
       
     
 }
