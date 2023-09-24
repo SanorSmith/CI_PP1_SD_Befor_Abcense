@@ -4,7 +4,7 @@
 /* Asterisk wildcard selector to give the site default styles*/
 
 * {
-    margin:0%;
+    margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
@@ -22,6 +22,7 @@ body {
     color: black;
     font-family: "Oswald", sans-serif;
 }
+
 .curved_corner {
     border-radius: 5px;
 }
@@ -198,7 +199,7 @@ main {
     width: 100%;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 0px;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
 
 }
 
@@ -237,6 +238,14 @@ main {
 }
 
 /* Gallary */
+
+.project_grid_w>li>img {
+    max-width: 100%;
+    height: auto;;
+    vertical-align: middle;
+    display: inline-block;
+}
+
 #gallary {
     padding: 20% 0%;
 }
@@ -258,12 +267,12 @@ main {
 
 .pro_img_style {
     height: 300px;
-    width: 100%;  
-    margin: 0 10px;  
-    
+    width: 100%;
+    margin: 0 10px;
+
 }
 
-#pro_img_1 {    
+#pro_img_1 {
     background: url("../images/pro_ 1.jpg") no-repeat center center/cover;
 }
 
@@ -302,14 +311,17 @@ main {
 
 /* About Section */
 
-.about_type_1, .about_type_2 {
+.about_type_1,
+.about_type_2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-#bk_img_1, #bk_img_2, #bk_img_3 {
+#bk_img_1,
+#bk_img_2,
+#bk_img_3 {
     width: 95%;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 0px;
@@ -317,24 +329,24 @@ main {
 
 }
 
-#bk_img_1{    
+#bk_img_1 {
     height: 150Px;
-    background: url("../images/pexels-about_our_mission.jpg") no-repeat center center/cover;       
+    background: url("../images/pexels-about_our_mission.jpg") no-repeat center center/cover;
 }
 
-#bk_img_2 {    
+#bk_img_2 {
     height: 150Px;
     background: url("../images/pexels-about_our_approach.jpg") no-repeat center center/cover;
-    
+
 }
 
-#bk_img_3 {   
+#bk_img_3 {
     height: 150Px;
-    background: url("../images/pexels-about_sustainability.jpg") no-repeat center center/cover;    
+    background: url("../images/pexels-about_sustainability.jpg") no-repeat center center/cover;
 }
 
 
-.about_type_2 > div,
+.about_type_2>div,
 #our_mission,
 #join_us {
     background-color: #fdfdfd57;
@@ -343,7 +355,8 @@ main {
 
 
 
-.about_type_2 > div, .about_type_1  {
+.about_type_2>div,
+.about_type_1 {
     padding: 5px;
     margin: 10px 2px;
     background-color: #fdfdfd57;
@@ -362,7 +375,7 @@ main {
 /* contact us */
 
 
-#header_text > p {
+#header_text>p {
     text-align: justify;
 }
 
@@ -439,13 +452,14 @@ input {
 #map {
     display: flex;
     flex-direction: column;
-    
-    justify-items: center;    
+
+    justify-items: center;
     width: auto;
     height: 100%;
-    
+
 }
-#map > iframe {
+
+#map>iframe {
     width: 100%;
 }
 
@@ -471,10 +485,10 @@ footer>ul {
 @media screen and (min-width: 400px) {
 
     #cover-text {
-        font-size: 80%;         
+        font-size: 80%;
     }
 
-    nav .links_s li a {        
+    nav .links_s li a {
         font-size: 180%;
     }
 
@@ -487,10 +501,10 @@ footer>ul {
 
     #cover-text {
         font-size: 90%;
-        width: 35%;         
+        width: 35%;
     }
 
-    nav .links_s li a {        
+    nav .links_s li a {
         font-size: 200%;
     }
 
@@ -503,7 +517,7 @@ footer>ul {
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
-/* Header*/
+    /* Header*/
 
     /* Adjust and Show menue's elements  horizontally*/
     nav .links_s li {
@@ -511,31 +525,32 @@ footer>ul {
         background: none;
         border: none;
         height: 40px;
-    }       
-    
-    nav .links_s li a {        
+    }
+
+    nav .links_s li a {
         background: #bebebe;
         box-shadow: 1px 1px 1px 1px #0f0607;
         font-size: 120%;
-        
+
     }
-    .links_s {    
+
+    .links_s {
         width: initial;
-        text-align: right;    
-        height: initial; 
-        position: initial; 
-        
-            
+        text-align: right;
+        height: initial;
+        position: initial;
+
+
     }
-    
+
     /* Hide Menue bars icon */
     .check_btn {
         display: none;
-    }   
-        
+    }
+
     /* Adjust hero text to tablet screen size*/
     .hero_titel {
-        font-size: 25px;        
+        font-size: 25px;
     }
 
 
@@ -544,11 +559,11 @@ footer>ul {
     /* Adjust hero image and text to tablet screen size*/
     #hero {
         height: 1180px;
-        
+
     }
 
     #cover-text {
-        font-size: 120%;    
+        font-size: 120%;
     }
 
     /* Services section */
@@ -576,11 +591,11 @@ footer>ul {
         width: 45%;
     }
 
-    
+
     /* Re-adjust Gallary section to fit on tablet screen size*/
 
-    #gallary {        
-        padding: 10% 5% 5%;        
+    #gallary {
+        padding: 10% 5% 5%;
     }
 
     .project_style>li {
@@ -589,89 +604,93 @@ footer>ul {
     }
 
     .project_style {
-        
+
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         padding: 5px;
         color: aliceblue;
     }
-    
+
     .pro_img_style {
         height: 400px;
         width: 100%;
-        
-    
+
+
     }
 
     /* Re-adjust About us section to fit on tablet screen size*/
 
-    
+
     /*View About sections horizontally*/
-    .about_type_1{
+    .about_type_1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-    #bk_img_1, #bk_img_2, #bk_img_3 {
+    #bk_img_1,
+    #bk_img_2,
+    #bk_img_3 {
         width: 250%;
-        height: 200Px;  
-            
-    }    
-   
+        height: 200Px;
+
+    }
+
     /*View Sustainability pargraph div horizontally*/
     #sustainability {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-    }  
-    
-
-    #about_type_1 > p {  
-        width: 100%;
-        padding: 10%;           
-        
     }
-    .about_type_1 > h4 {  
+
+
+    #about_type_1>p {
+        width: 100%;
+        padding: 10%;
+
+    }
+
+    .about_type_1>h4 {
         position: static;
-        left: 400px;  
-        color: #ffffff;       
+        left: 400px;
+        color: #ffffff;
     }
 
     .about_type_2 {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        }
+    }
 
-    
+
 
     /* Re-adjust Contact Us section to fit on tablet screen size*/
 
-    #email_tel > div {
+    #email_tel>div {
         display: flex;
         flex-direction: row;
         height: 30px;
         padding: 1% 0;
     }
+
     /* contact us viewing order */
     #our_info_container {
         display: flex;
-        flex-direction: row;    
-        justify-content: space-between;        
+        flex-direction: row;
+        justify-content: space-between;
     }
-        
+
     #email_tel {
         order: 2;
     }
-    
+
     #adress {
-        order:1;
+        order: 1;
     }
 
     #open_hour {
-        order:3;
+        order: 3;
     }
 
     /* Re-form User contact input for tablets */
@@ -679,32 +698,36 @@ footer>ul {
 
     #contact_container {
         display: flex;
-        flex-direction: row;        
+        flex-direction: row;
         justify-content: center;
         justify-items: center;
         width: 100%;
         border: solid #bebebe;
-        padding: 10px; 
+        padding: 10px;
 
     }
 
-    #info_labels_boxs > div{
-        padding: 4% 0 4% 0px;  
+    #info_labels_boxs>div {
+        padding: 4% 0 4% 0px;
     }
 
-    
-    #Info_label_boxs label, input{
+
+    #Info_label_boxs label,
+    input {
         display: flex;
-        flex-direction: column;    
+        flex-direction: column;
         width: 90%;
     }
+
     input {
         height: 30px;
         border-color: #bebebe;
     }
-    form{
+
+    form {
         width: 50%;
     }
+
     #client_message {
         width: 90%;
     }
@@ -715,61 +738,63 @@ footer>ul {
         position: relative;
         height: auto;
         width: 50%;
-        
-    }   
-    #map > iframe {
-        left:0;
-        top:0;
+
+    }
+
+    #map>iframe {
+        left: 0;
+        top: 0;
         height: 100%;
         width: 100%;
         position: absolute;
-        
-    } 
-     
+
+    }
+
 }
 
 /* Adjuste header elements to desktop/laptop devices screen*/
 @media screen and (min-width: 992px) {
 
-    #logo {        
+    #logo {
         width: 60px;
         height: 60px;
     }
 
     .hero_titel {
-            font-size: 25px;
-        }
+        font-size: 25px;
+    }
 
     #cover-text {
         font-size: 140%;
         width: 40%;
-   }
-
-   nav .links_s li a {
-       font-size: 130%;
-   }
-
-   /* Services section */
-    h4, p{
-        font-size: 150%;
-        
     }
-       
+
+    nav .links_s li a {
+        font-size: 130%;
+    }
+
+    /* Services section */
+    h4,
+    p {
+        font-size: 150%;
+
+    }
+
     /*Gallary*/
-    .project_style>li {        
+    .project_style>li {
         width: 50%;
     }
 
     .pro_img_style {
         height: 400px;
         width: 100%;
-        
-    
+
+
     }
 
-    
-      
-    
+
+
+
 }
 
 
@@ -782,22 +807,23 @@ footer>ul {
 
     #cover-text {
         font-size: 140%;
-        width:35% ;    
-   }
-
-   nav .links_s li a {
-       font-size: 180%;
-   }
-   
-
-   /* Services section */
-    h4, p {
-        font-size: 170%;
-        
+        width: 35%;
     }
-       
+
+    nav .links_s li a {
+        font-size: 180%;
+    }
+
+
+    /* Services section */
+    h4,
+    p {
+        font-size: 170%;
+
+    }
+
     /*Gallary*/
-    .project_style>li {        
+    .project_style>li {
         width: 50%;
     }
 
