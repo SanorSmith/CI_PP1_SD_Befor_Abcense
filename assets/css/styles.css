@@ -239,12 +239,52 @@ main {
 
 /* Gallary */
 
-.project_grid_w>li>img {
+.project_grid_w > li> img {
     max-width: 100%;
     height: auto;;
     vertical-align: middle;
     display: inline-block;
+    
 }
+
+.project_grid_w > li {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.project_grid_w > li > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.project_grid_w{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)) ;
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.project_grid_w .wide {
+    grid-column: span 2;
+
+}
+
+.project_grid_w .tall {
+    grid-row: span 2;
+
+}
+.project_grid_w .big {
+    grid-column: span 2;
+    grid-row: span 2;    
+} 
+
+
+
+
 
 #gallary {
     padding: 20% 0%;
